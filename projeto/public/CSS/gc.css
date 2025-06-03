@@ -1,0 +1,82 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.admin-dashboard {
+    max-width: 800px;
+    margin: auto;
+}
+
+.admin-card {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+
+.admin-card h2, .admin-card h3 {
+    color: #ffffff;
+}
+
+.form-categoria input {
+    padding: 10px;
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.admin-btn {
+    padding: 10px 15px;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.admin-btn:hover {
+    background-color: #3700b3;
+}
+
+.lista-categorias ul {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-categorias li {
+    background-color: #2a2a2a;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.inline-form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.inline-form input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+}
+
+.delete {
+    background-color: #b00020;
+}
+
+.delete:hover {
+    background-color: #7a0014;
+}
