@@ -1,8 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
- use App\Http\Controllers\loginssController;
+ use App\Http\Controllers\logincontroller;
  use App\Http\Controllers\UsuarioController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -41,7 +42,8 @@ Route::get('/ofertas', function () {
 });
 
 
-Route::get('login/login', [loginssController::class,'create']);
+Route::post('/login', [logincontroller::class, 'login']);
+Route::get('/login/login', function () {return view('login');})->name('login');
 
 Route::get('/cadastro', function () {
     return view ('cadastro');
@@ -49,7 +51,7 @@ Route::get('/cadastro', function () {
 
 Route::get('/admin', function () {
     return view ('admin/admin');
-});
+})->middleware('auth:admin');
 
 Route::get('/config', function () {
     return view ('admin/configuracoes');
@@ -68,5 +70,9 @@ Route::get('/gpr', function () {
 });
 
 Route::get('/gc', function () {
-    return view ('admin/gc');
+return view ('admin/gc');
 });
+
+Route::get('/cliente/logout', [logincontroller::class, 'logout']);
+
+Route::get('/admin/logout', [logincontroller::class, 'admin_logout']);

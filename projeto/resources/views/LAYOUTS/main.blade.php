@@ -17,7 +17,12 @@
                 <li><a href="/feminino">Feminino</a></li>
                 <li><a href="/infantil">Infantil</a></li>
                 <li><a href="/cadastro">Cadastro</a></li>
+                @guest('cliente')
                 <li><a href="login/login">Login</a></li>
+                @endguest
+                @auth('cliente')
+                <li><a href="/cliente/logout">Sair</a></li>
+                @endauth
                 
             </ul>
         </nav>

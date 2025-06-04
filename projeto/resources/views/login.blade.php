@@ -4,7 +4,7 @@
 <main>
         <div class="form-container">
             <h2>Acesse sua conta</h2>
-            <form action="">
+            <form action="/login" method="POST">
             @csrf
                 <label for="email">E-mail:</label>
                 <input type="email" id="email" name="email" required>
