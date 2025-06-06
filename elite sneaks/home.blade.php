@@ -27,7 +27,7 @@
                 <h3>Tênis Esportivo</h3>
                 <p>R$ 299,99</p>
                 <button>Comprar</button>
-            
+            </div> <div class="produto">
         </section>
     @endsection
 

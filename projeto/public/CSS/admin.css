@@ -34,28 +34,51 @@ nav ul li a {
 }
 
 /* Painel do Administrador */
+
+.full-width {
+    width: 100%;
+    max-width: 520px; /* largura total dos dois cards lado a lado */
+    margin: 0 auto; /* centraliza */
+}
+
+/* Para centralizar o card de baixo */
+.single-centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 .admin-dashboard {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px; /* Espaçamento entre os cards */
+    gap: 20px;
     padding: 20px;
-    max-width: 900px; /* Limita a largura do painel */
+    max-width: 1000px; /* aumenta pra caber 3 cards lado a lado */
     margin: auto;
 }
 
+
 /* Estilização dos cards */
+/* Cards padrão */
 .admin-card {
     background: #1f1f1f;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-    width: 250px; /* Mantém tamanho fixo */
+    width: 250px;
     text-align: center;
-    flex: 1 1 250px; /* Todos os cards terão o mesmo tamanho */
+    flex: 0 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+/* Card que ocupa a largura inteira (3 colunas) */
+.full-width-card {
+    flex: 1 1 100%;
+    max-width: 840px;
+    margin: 0 auto;
 }
 
 /* Títulos e textos dentro dos cards */
@@ -95,4 +118,52 @@ footer {
     padding: 15px;
     text-align: center;
     margin-top: auto;
+}
+
+/* Formulário dentro do card admin */
+.admin-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #cccccc;
+    text-align: left;
+}
+
+/* Cada grupo de label + input/select */
+.admin-form .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label */
+.admin-form label {
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+/* Inputs e select */
+.admin-form input[type="text"],
+.admin-form input[type="number"],
+.admin-form input[type="file"],
+.admin-form select {
+    background: #2c2c2c;
+    border: 1px solid #444;
+    border-radius: 5px;
+    padding: 8px 10px;
+    color: #eee;
+    font-size: 1rem;
+}
+
+/* Placeholder fica mais claro */
+.admin-form input::placeholder {
+    color: #888;
+}
+
+/* Botão de submit igual ao admin-btn */
+.admin-form button.admin-btn {
+    align-self: center;
+    width: 150px;
+    font-weight: 700;
+    cursor: pointer;
 }
