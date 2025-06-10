@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <h1>Loja de Tênis</h1>
+        <h1>Elite Sneakers</h1>
         <nav>
             <ul>
                 <li><a href="/">Início</a></li>
