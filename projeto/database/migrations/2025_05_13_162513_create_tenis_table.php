@@ -13,9 +13,10 @@ return new class extends Migration
     {
         Schema::create('tenis', function (Blueprint $table) {
             $table->id();
+            $table->string('nome');
             $table->enum('genero', ['masculino', 'feminino', 'infantil']);
             $table->string('imagem'); // caminho ou nome do arquivo da imagem
-            $table->decimal('preco', 8, 2);
+            $table->float('preco');
             $table->timestamps();
         });
     }

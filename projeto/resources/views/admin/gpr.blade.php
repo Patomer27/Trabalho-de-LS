@@ -34,7 +34,7 @@
 
         <div class="form-group">
             <label for="foto">Foto do Produto:</label>
-            <input type="file" id="foto" name="foto" accept="image/*" required>
+            <input type="file" id="foto" name="imagen" accept="image/*" required>
         </div>
 
         <div class="form-group">
@@ -44,7 +44,7 @@
 
         <div class="form-group">
             <label for="categoria">Categoria:</label>
-            <select id="categoria" name="categoria" required>
+            <select id="categoria" name="genero" required>
                 <option value="infantil" selected>Infantil</option>
                 <option value="masculino">Masculino</option>
                 <option value="feminino">Feminino</option>
@@ -54,6 +54,7 @@
         <button type="submit" class="admin-btn">Cadastrar Produto</button>
     </form>
 </section>
+
 
 
 </main>

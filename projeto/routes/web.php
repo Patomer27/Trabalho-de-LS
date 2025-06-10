@@ -2,7 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
  use App\Http\Controllers\logincontroller;
- use App\Http\Controllers\UsuarioController;
+use App\Http\Controllers\TenisController;
+use App\Http\Controllers\UsuarioController;
 
 /*
 |--------------------------------------------------------------------------
@@ -76,3 +77,5 @@ return view ('admin/gc');
 Route::get('/cliente/logout', [logincontroller::class, 'logout']);
 
 Route::get('/admin/logout', [logincontroller::class, 'admin_logout']);
+
+Route::post('/admin/cadastrar-produto', [TenisController::class, 'store']);
