@@ -74,5 +74,6 @@
                 <p>R$ 120,00</p>
                 <button>Comprar</button>
             </div>
-               
+                               <img src="IMAGENS/pngwing.com (7).png" alt="Tênis Modelo 1">
+
     @endsection
