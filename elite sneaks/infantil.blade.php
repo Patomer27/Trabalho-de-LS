@@ -75,4 +75,6 @@
                 <button>Comprar</button>
             </div>
     </main>
+                    <img src="IMAGENS/pngwing.com (7).png" alt="Tênis Modelo 1">
+
     @endsection
