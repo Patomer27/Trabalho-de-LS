@@ -15,7 +15,7 @@
                 <button>Comprar</button>
             </div><div class="produto">
                 <img src="IMAGENS/pngwing.com (9).png" alt="Tênis Modelo 1">
-                <h3>Tênis Esportivo</h3>
+                <h3>Salto alto</h3>
                 <p>R$ 247,75</p>
                 <button>Comprar</button>
             </div><div class="produto">
@@ -40,7 +40,7 @@
                 <button>Comprar</button>
             </div><div class="produto">
                 <img src="IMAGENS/pngwing.com (14).png" alt="Tênis Modelo 1">
-                <h3>Tênis Esportivo</h3>
+                <h3>Tênis Casual</h3>
                 <p>R$ 242,00</p>
                 <button>Comprar</button>
             </div><div class="produto">
@@ -50,26 +50,26 @@
                 <button>Comprar</button>
             </div><div class="produto">
                 <img src="IMAGENS/pngwing.com (16).png" alt="Tênis Modelo 1">
-                <h3>Tênis Esportivo</h3>
+                <h3>Salto Alto</h3>
                 <p>R$ 238,67</p>
                 <button>Comprar</button>
             </div><div class="produto">
                 <img src="IMAGENS/pngwing.com (17).png" alt="Tênis Modelo 1">
-                <h3>Tênis Esportivo</h3>
+                <h3>Salto Alto</h3>
                 <p>R$ 300,25</p>
-                <button>Comprar</button>
-            </div><div class="produto">
-                <img src="IMAGENS/pngwing.com (21).png" alt="Tênis Modelo 1">
-                <h3>Tênis Esportivo</h3>
-                <p>R$ 219,99</p>
                 <button>Comprar</button>
             </div><div class="produto">
                 <img src="IMAGENS/pngwing.com (19).png" alt="Tênis Modelo 1">
                 <h3>Tênis Esportivo</h3>
-                <p>R$ 268,99</p>
+                <p>R$ 219,99</p>
                 <button>Comprar</button>
             </div><div class="produto">
                 <img src="IMAGENS/pngwing.com (20).png" alt="Tênis Modelo 1">
+                <h3>Tênis Esportivo</h3>
+                <p>R$ 268,99</p>
+                <button>Comprar</button>
+            </div><div class="produto">
+                <img src="IMAGENS/pngwing.com (21).png" alt="Tênis Modelo 1">
                 <h3>Tênis Esportivo</h3>
                 <p>R$ 120,00</p>
                 <button>Comprar</button>
